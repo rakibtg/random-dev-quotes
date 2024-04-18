@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: random-dev-quotes
+  description: "random-dev-quotes app Dockerized and integrated with Backstage"
+  tags:
+    - docker
+spec:
+  type: service
+  lifecycle: production
+  owner: your-team
+  definition:
+    {
+      "dockerfile": "./Dockerfile",
+      "image": "rakibtg/random-dev-quotes:latest",
+    }
