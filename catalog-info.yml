@@ -8,7 +8,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: your-team
+  owner: guests
   definition:
     {
       "dockerfile": "./Dockerfile",
