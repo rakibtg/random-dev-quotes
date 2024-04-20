@@ -5,6 +5,8 @@ metadata:
   description: "random-dev-quotes app Dockerized and integrated with Backstage"
   tags:
     - docker
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: production
